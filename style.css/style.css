@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Topo Header */
+.topo {
+     width: 100vw;
+     height: 150px;
+     border-bottom: 12px solid #EC8922;
+     padding: 32px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.topo-esq {
+    width: 231px;
+    height: 155px;
+}
+
+.topo-dir {
+    width: 574px;
+    height: 64px;
+    
+}
+
+.menu-icon {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    left: 550px;
+    top: 90px;
+}
+
+div.menu-icon i {
+    font-size: 30px;
+}
+
+.btn-pesquisa {
+    width: 461px;
+    height: 40px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+div.btn-pesquisa p {
+    font-size: 20px;
+}
+
+div.btn-pesquisa i {
+    font-size: 40px;
+}
+
+/* Banner */
+
+.banner {
+    background: url(../img/suco-de-laranja-fresco-e-frio.jpg) no-repeat;
+    background-position-y: 1%;
+    background-position-x: 10%;
+    background-size: 100%;
+    max-width: 1000px;
+    height: 827px;
+    padding: 60px 80px;
+    gap: 64px;
+}
+
+div.banner_txt {
+    width: 473px;
+    height: 211px;
+    gap: 32px;
+}
+
+
+.banner_txt_p1 {
+    width: 473px;
+    height: 83px;
+    font-family: "Oswald";
+    font-size: 56px;
+    line-height: 83px;
+}
+
+.banner_txt_p2 {
+    width: 356px;
+    height: 94px;
+    font-family: "Oswald";
+    font-size: 32px;
+    line-height: 47px;
+    text-align: justify;
+}
+
+.banner_imgs {
+    width: 656px;
+    height: 192px;
+    gap: 16px;
+}
+
+div.banner_imgs img {
+    width: 208px;
+    height: 192px;
+    border-radius: 25px;
+    
+}
+
+
+/* Sucos */
+
+.sucos {
+    width: 1440px;
+    height: 691px;
+    padding: 16px;
+    gap: 68px;
+    display: flex;
+    background-color: var(--preset--color--laranja-muito-claro);
+}
+
+.lado-esq {
+    /* width: 610px;
+    height: 691px; */
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    gap: 32px;
+}
+
+.img-hsucospng {
+    width: 610px;
+    height: 325px;
+}
+
+.texto {
+    width: 610px;
+    height: 311px;
+    border-top: 10px solid green;
+    padding: 10px 0px;
+    gap: 32px;
+}
+
+.texto-p1 {
+    width: 427px;
+    height: 47px;
+    font-family: "Oswald";
+    font-size: 32px;
+    line-height: 47px;
+}
+
+.texto-p2 {
+    width: 610px;
+    height: 90px;
+    font-family: "Oswald";
+    font-size: 20px;
+    line-height: 29px;
+}
+
+div.texto button {
+    background-color: #fff;
+    width: 117px;
+    height: 46px;
+    border-radius: 16px;
+    border: 2px solid green;
+    padding: 8px 16px;
+    color: green;
+}
+
+main {
+    margin: auto;
+    max-width: 1440px;
+}

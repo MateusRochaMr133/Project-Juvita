@@ -1,0 +1,19 @@
+/* Fontes */
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../Fontes/Oswald-VariableFont_wght.ttf);
+}
+
+:root {
+    --preset--text-transform: uppercase; 
+    --preset--color--laranja-escuro: #EC8922;
+    --preset--color--laranja-muito-claro: #FFF9F3;
+    --preset--color--verde: #6DC35D;
+    --preset--color--light-gray: #EEEEEE;
+    --preset--color--white: #ffffff;
+    --preset--color--baby-blue: #E5F4FF;
+    --preset--color--blue: #1298F8;
+    --preset--color--green: #48D05F; 
+    --preset--color--red: #E92929; 
+}
