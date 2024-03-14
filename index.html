@@ -9,6 +9,12 @@
     <!-- Arquivo CSS -->
     <link rel="stylesheet" href="./style.css/style.css">
     <link rel="stylesheet" href="./style.css/variaveis.css">
+    <link rel="stylesheet" href="./style.css/animacao.css">
+    <link rel="stylesheet" href="./style.css/mobile.css" media="screen and (max-width:812px)">
+
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        referrerpolicy="no-referrer" />
     <title>Project-Juvita</title>
 
 </head>
@@ -26,13 +32,17 @@
         <div class="topo-dir">
 
             <div class="header-input">
-                <input type="text" placeholder="Search">
-                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <form action="">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+                
             </div>
 
-            
+            <div class="menu-topo">
                 <i class="fa-solid fa-bars"></i>
-            
+            </div>
 
         </div>
 
@@ -41,25 +51,27 @@
 
     <main>
 
-        <div class="banner">
+        <section class="sucos-img">
 
-            <div class="banner_txt">
-                <p class="banner_txt_p1">Happy hour <span>Juvita</span> </p>
-                <p class="banner_txt_p2">Venha refrescar seus finais de tarde conosco!</p>
+            <div class="banner">
+
+                <div class="banner_txt">
+                    <p class="banner_txt_p1">Happy hour <span>Juvita</span> </p>
+                    <p class="banner_txt_p2">Venha refrescar seus finais de tarde conosco!</p>
+                </div>
+
+                <div class="banner_imgs">
+                    <img src="./img/suco-maca-verde.png" alt="Suco-maca">
+
+                    <img src="./img/suco-abacaxi.png" alt="Suco-Abacaxi">
+
+                    <img src="./img/suco-morango.png" alt="Suco-Morango">
+
+                </div>
 
             </div>
 
-
-            <div class="banner_imgs">
-                <img src="./img/suco-maca-verde.png" alt="Suco-maca">
-
-                <img src="./img/suco-abacaxi.png" alt="Suco-Abacaxi">
-
-                <img src="./img/suco-morango.png" alt="Suco-Morango">
-
-            </div>
-
-        </div>
+        </section>
 
         <section class="sucos">
 
@@ -68,7 +80,7 @@
                 <p class="texto-p2"> <span> Hidratam o corpo!</span> Por se tratar de uma bebida preparada à base de
                     água e combinada
                     com frutas, legumes e grãos, os sucos funcionais favorecem a hidratação do corpo.</p>
-                <button>Saiba Mais...</button>
+                <button class="animacao-fundos">Saiba Mais...</button>
             </div>
 
             <div class="img1"></div>
@@ -89,7 +101,7 @@
                     benefícios para o
                     metabolismo energético, defesa antioxidante, resposta imune, reparação e crescimento tecidual e
                     muscular, além da saúde óssea.</p>
-                <button>Saiba Mais...</button>
+                <button class="animacao-fundos">Saiba Mais...</button>
             </div>
 
         </section>
@@ -192,9 +204,9 @@
                         </div>
 
                         <div class="botoes">
-                            <button class="solicitar">Solicitar Brinde</button>
+                            <button class="solicitar animacao-fundos-diferentes">Solicitar Brinde</button>
 
-                            <button class="limpar">Limpar</button>
+                            <button class="limpar animacao-fundos">Limpar</button>
                         </div>
 
                     </form>
@@ -279,8 +291,23 @@
 
     </footer>
 
+
+
+    <!-- Biblioteca JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Biblioteca WayPoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.min.js"
+        integrity="sha512-O5YCLUxCY2OBc4rfpnKUIgE4LGuCiW8CrJ7ty4hvkBAAKUOnlbomEFWd3a6ruRnFvO3LG2wiaGiJ1heOvdppvA=="
+        crossorigin="anonymous"></script>
+
+
     <!-- Arquivo JavaScript -->
-    <script src="./style.css/style.css"></script>
+    <script src="./script.js/script.js"></script>
 
     <!-- Icone FontAwesome -->
     <script src="https://kit.fontawesome.com/54169e989a.js" crossorigin="anonymous"></script>

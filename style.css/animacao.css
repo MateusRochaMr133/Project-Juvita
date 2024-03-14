@@ -1,0 +1,27 @@
+@keyframes animacao-fundo {
+    100% {
+        background-color: rgb(20, 156, 20);
+        color: #fff;
+    }
+}
+
+@keyframes animacao-fundo-diferente {
+    100% {
+        background-color: rgb(5, 158, 23);
+        color: #fff;
+    }
+}
+
+.animacao-fundos:hover {
+    animation-name: animacao-fundo;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+.animacao-fundos-diferentes:hover {
+    animation-name: animacao-fundo-diferente;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+}

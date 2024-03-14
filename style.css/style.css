@@ -12,16 +12,19 @@ main {
 
 .topo {
     display: flex;
-    /* width: 1440px; */
+    justify-content: space-between;
+    max-width: 1136px;
+    min-width: 360px;
+    margin: auto;
     height: 203px;
     padding: 32px;
-    justify-content: space-between;
     align-items: center;
     border-bottom: 12px solid #EC8922;
 }
 
 .topo-dir {
     display: flex;
+    justify-content: space-around;
     width: 574px;
     height: 64px;
     justify-content: center;
@@ -30,19 +33,27 @@ main {
     flex-shrink: 0;
 }
 
-.topo-dir i {
+div.topo-dir i {
     font-size: 40px;
+    width: 10%;
+    height: 10%;
 }
 
 .header-input input {
-    width: 461px;
+    width: 100%;
     height: 64px;
+    border: none;
 }
 
-.header-input i {
-    position: relative;
-    left: 440px;
-    bottom: 60px;
+div.header-input form {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+
+div.header-input form i {
+    height: 50px;
+    width: 50px;
 }
 
 .header-input input[type="text"] {
@@ -63,7 +74,6 @@ main {
     max-width: 1000px;
     height: 827px;
     padding: 60px 80px;
-    gap: 64px;
 }
 
 div.banner_txt {
@@ -228,8 +238,8 @@ div.texto2 button {
     height: 46px;
     border-radius: 16px;
     border: 2px solid #6DC35D;
-    background-color: #6DC35D;
-    color: #fff;
+    background-color: #fff;
+    color: green;
 }
 
 /* Section Novidades */
@@ -467,12 +477,11 @@ div.botoes {
 div.botoes button.solicitar {
     border-radius: 16px;
     border: 2px solid #6DC35D;
-    background: var(--Verde, #6DC35D);
     display: flex;
     padding: 8px 16px;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: green;
     font-family: "Oswald";
     font-size: 20px;
     font-style: normal;

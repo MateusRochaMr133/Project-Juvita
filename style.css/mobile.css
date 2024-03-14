@@ -1,0 +1,61 @@
+
+/* Header Topo */
+
+header.topo {
+    flex-direction: column;
+    justify-content: center;
+    min-width: 360px;
+}
+
+div.header-input {
+    width: 100%;
+    height: 100%;
+}
+
+div.header-input input {
+    font-size: 1.55rem;
+}
+
+div.topo-dir {
+    width: 100%;
+    gap: 20px;
+}
+
+.header-input input[type="text"] {
+    padding-left: 10px;
+}
+
+.header-input input[placeholder="Search"] {
+    font-size: 20px;
+}
+
+div.topo-dir i {
+    font-size: 1.50rem;
+}
+
+/* banner */
+
+div.banner {
+    background: url(../img/suco-de-laranja-fresco-e-frio.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 368px; 
+    padding: 32px 0px;  
+    
+}
+
+div.banner_txt {
+    margin-left: 20px;
+    flex-direction: column;
+    background-color: #f8e7d4;
+    flex-wrap: wrap;
+    
+}
+
+div.banner_imgs {
+    display: none;
+}
+
+/* Banner */
+
